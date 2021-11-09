@@ -13,12 +13,14 @@
         var p;
 
         function init() { //문서가 완전히 로드되었을 때 호출
-            p= document.getElementById("p");
-            p.onmouseover=function (){ //익명 함수
-                this.style.backgroundColor="orchid";
+            p = document.getElementById("p");
+            p.onmouseover = function () { //익명 함수
+                this.style.backgroundColor = "orchid";
             };
             p.addEventListener("mouseout",
-                function () {this.style.backgroundColor="white";} // 익명 함수
+                function () {
+                    this.style.backgroundColor = "white";
+                } // 익명 함수
             );
         }
     </script>

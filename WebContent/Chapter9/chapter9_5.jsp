@@ -17,11 +17,11 @@
 <p id="p">마우스를 올려 보세요</p>
 <button onclick="f(event)">클릭하세요</button>
 <script>
-    function f(e){ //e는 현재 발생한 이벤트 객체
+    function f(e) { //e는 현재 발생한 이벤트 객체
         alert(e.type) //이벤트 종류 출력
     }
 
-    document.getElementById("p").onmouseover=f;
+    document.getElementById("p").onmouseover = f;
 </script>
 </body>
 </html>

@@ -26,7 +26,7 @@
 <a href="http://www.naver.com" onclick="return query()">네이버로 이동할지 물어보는 링크</a>
 <hr>
 <form>
-    <input type="checkbox">빵(체크 됨)<br>
+    <input type="checkbox" checked>빵(체크 됨)<br>
     <input type="checkbox"
            onclick="noAction(event)">술(체크 안됨)
 </form>
